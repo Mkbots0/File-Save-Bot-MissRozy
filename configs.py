@@ -41,7 +41,7 @@ class Config(object):
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "mkfile_store01_bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002259804858))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "8185007347 5797912002"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "8185007347"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://kondapallishiva144:mkfilestorebot@cluster0.okawy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002388133823")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002259804858")
