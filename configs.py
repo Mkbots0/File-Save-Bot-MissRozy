@@ -51,7 +51,7 @@ class Config(object):
 	LAZY_CHANNEL = int(os.environ.get('LAZY_CHANNEL','-1001903883684'))
 	LAZY_MODE = bool(os.environ.get("LAZY_MODE", False))
 	LAZY_PIC = os.environ.get("LAZY_PIC","https://envs.sh/Qd_.jpg https://envs.sh/Qzw.jpg https://envs.sh/Qzq.jpg https://envs.sh/Qz0.jpg")
-	LP_BTN_MAIN_CH_USRNM = os.environ.get("LP_BTN_MAIN_CH_USRNM")
+	LP_BTN_MAIN_CH_USRNM = os.environ.get("LP_BTN_MAIN_CH_USRNM", @mkmoviesfile")
 	LP_CHANNEL_USRNM = os.environ.get("LP_CHANNEL_USRNM")
 	LPCH_ADMIN_USRMN = os.environ.get("LPCH_ADMIN_USRMN")
 	LP_CUSTOM_TEMPLATE= os.environ.get("LP_CUSTOM_TEMPLATE")
